@@ -26,7 +26,8 @@ public class RegistrationServlet extends HttpServlet {
             req.setAttribute("loginValue", login);
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/registrationSuccess.jsp");
             dispatcher.forward(req, resp);
+        }else{
+            resp.getWriter().print("Такой логин уже существует");
         }
-
     }
 }

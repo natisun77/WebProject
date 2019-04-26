@@ -18,6 +18,5 @@
     <input type="submit" value="Вход"/>
 </form>
 
-
 </body>
 </html>
