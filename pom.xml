@@ -6,4 +6,11 @@
     <groupId>com.nataliia</groupId>
     <artifactId>WebProject</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+    <dependency>
+        <groupId>jstl</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
+    </dependency>
+    </dependencies>
 </project>

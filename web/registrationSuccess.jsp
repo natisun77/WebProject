@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: User
@@ -12,7 +13,7 @@
 </head>
 <body>
 
-Вы успешно зарегестрированы, <% out.print(request.getAttribute("loginValue")); %>!
+Вы успешно зарегестрированы, <c:out value="${loginValue}" /> !
 
 <form action="${pageContext.request.contextPath}/login.jsp" method="get">
     <input type="submit" value="Вход"/>
